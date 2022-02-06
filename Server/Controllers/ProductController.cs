@@ -34,6 +34,5 @@ namespace BlazorEcommerce.Server.Controllers
             var result = await _productService.GetProductsByCategory(categoryUrl);
             return Ok(result);
         }
-
     }
 }
